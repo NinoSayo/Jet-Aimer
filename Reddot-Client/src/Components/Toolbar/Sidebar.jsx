@@ -27,7 +27,7 @@ export default function Sidebar({ open, toggleSidebar }) {
         open={open}
         onClose={toggleSidebar}
         sx={{
-          width: 240,
+          width: "240px",
           flexShrink: 0,
           position: "absolute",
           top: "64px", // Adjust this value if navbar height changes

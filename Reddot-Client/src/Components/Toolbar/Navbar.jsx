@@ -92,7 +92,7 @@ export default function Navbar({ toggleSidebar }) {
           <Button
             color="inherit"
             component={Link}
-            to="/About"
+            to="/users/login"
             style={{ textTransform: "none", fontSize: "16px" }}
           >
             Login
@@ -100,7 +100,7 @@ export default function Navbar({ toggleSidebar }) {
           <Button
             color="inherit"
             component={Link}
-            to="/questions"
+            to="/users/register"
             style={{ textTransform: "none", fontSize: "16px" }}
           >
             Sign Up
